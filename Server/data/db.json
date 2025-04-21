@@ -1,0 +1,39 @@
+{
+	"cases": [
+		{
+			"title": "Test1",
+			"isCompleted": false,
+			"id": "806d257b-bf02-4b32-ba6a-de84f40b8696"
+		},
+		{
+			"title": "Test2",
+			"isCompleted": false,
+			"id": "1aedd559-f8a1-400d-8e9b-2bb27768a026"
+		},
+		{
+			"title": "Test4",
+			"isCompleted": false,
+			"id": "9d33abde-4e4f-405b-a77f-988da60d5ee0"
+		},
+		{
+			"title": "Test6",
+			"isCompleted": false,
+			"id": "74221957-b142-4bf0-88af-91414f15926d"
+		},
+		{
+			"title": "Test5",
+			"isCompleted": false,
+			"id": "d13251fa-9d87-4dcf-b21b-be5cdb9849c6"
+		}
+	],
+	"casedetails": [
+		{
+			"description": "Test1 - description",
+			"description2todo": "814e55e8-bb11-48f7-82a2-a19494c8655b"
+		},
+		{
+			"description": "Test1 - description",
+			"description2todo": "814e55e8-bb11-48f7-82a2-a19494c8655b"
+		}
+	]
+}

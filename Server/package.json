@@ -1,0 +1,37 @@
+{
+  "name": "TypeScriptProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "start:server1": "cross-env NODE_ENV=server1 APP_PORT=3001 SOCKET_PORT=3051 npm run build",
+    "start:server2": "cross-env NODE_ENV=server2 APP_PORT=3002 SOCKET_PORT=3052 npm run build",
+    "build": "./node_modules/.bin/ts-node -- ./src/index.ts",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.6.2",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.7",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.1.4",
+    "debug": "^4.3.4",
+    "helmet": "^3.12.0",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "socket.io": "^2.4.1",
+    "socket.io-redis": "^5.2.0",
+    "uuid": "^8.3.2"
+  }
+}
